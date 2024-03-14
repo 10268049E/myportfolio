@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Doctor PC</title>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+	
+li {
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+	
+li a:hover {
+  background-color: #111;
+}
+
+    .container {
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+
+    form {
+        display: inline-block;
+        text-align: left;
+    }
+
+    label {
+        display: block;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea,
+    input[type="date"],
+    input[type="time"] {
+        display: block;
+        margin-top: 5px;
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        background-color: #f2f2f2;
+    }
+
+    input[type="submit"] {
+        margin-top: 20px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        background-color: #007bff;
+        color: #fff;
+        font-size: 1.2em;
+        cursor: pointer;
+    }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+	  </style>
+
+
+<body>
+
+  <div id="container">
+
+  <div id="header">
+
+<h1>Repair Booking</h1>
+
+</div>
+
+<ul>
+<li><a href= "index.html">Home Page</a></li>
+<li><a href= "Repair Booking.html">Repair Booking</a></li>
+<li><a href= "Customization.html">Customization</a></li>
+<li><a href= "Checkout.html">Checkout</a></li>
+<li><a href= "Contact.html">Contact Us</a></li>
+</ul>
+	  
+<div class="container">
+	
+	<form action="#" method="post">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required>
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required>
+
+		<label for="phone">Phone:</label>
+		<input type="tel" id="phone" name="phone" required>
+
+		<label for="problem">Problem:</label>
+		<textarea id="problem" name="problem" rows="4" cols="50"></textarea>
+
+		<label for="date">Date:</label>
+		<input type="date" id="date" name="date" required>
+
+		<label for="time">Time:</label>
+		<input type="time" id="time" name="time" required>
+
+		<input type="submit" value="Submit">
+	</form>
+</div>
+
+                                                                        
+
+
+
+
+<div id="footer">
+
+  <p>Comments / Suggestions </p>
+
+<p>We want to hear from you! If you have any comments or suggestions on things you'd like to see on the site please let us know.</p>
+
+<p>&copy 2023 Doctor PC Website</p>
+
+</div>
+
+</body>
+
+</html>
